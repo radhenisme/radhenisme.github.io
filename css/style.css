@@ -1,0 +1,45 @@
+@font-face {
+	font-family: Tentmaker-Regular;
+	src: url(../font/Tentmaker-Regular.otf);
+}
+
+@font-face {
+	font-family: Rodina;
+	src: url(../font/Rodina.woff2);
+}
+
+body {
+	background: #eaeaea;
+}
+
+#name1 {
+  text-align: center;
+}
+
+#name2 {
+	margin-left: 2em;
+}
+
+h1, h3 {
+	font-family: Tentmaker-Regular;
+}
+
+.card-action {
+	text-align: center;
+}
+
+blockquote, .footer {
+	font-family: Rodina;
+	font-size: 1em;
+}
+
+.row, #name1, #name2 {
+	display: none;
+}
+
+.footer {
+	text-align: right;
+	display: none;
+	margin-top: -1.5em;
+	margin-right: 0.5em;
+}
